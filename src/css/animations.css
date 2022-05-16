@@ -1,0 +1,39 @@
+@keyframes c-glowing-blue {
+    0% {
+      box-shadow: 0 0 5px var(--very-desaturated-blue), 0 0 5px var(--very-desaturated-blue), 0 0 15px var(--very-desaturated-blue), 0 0 20px var(--blue), 0 0 10px var(--blue), 0 0 10px var(--blue), 0 0 10px var(--blue), 0 0 10px var(--blue)
+    }
+  
+    to {
+      box-shadow: 0 0 2.5px var(--very-desaturated-blue), 0 0 2.5px var(--very-desaturated-blue), 0 0 7.5px var(--very-desaturated-blue), 0 0 10px var(--blue), 0 0 5px var(--blue), 0 0 5px var(--blue), 0 0 5px var(--blue), 0 0 2px var(--blue)
+    }
+  }
+  
+  @keyframes c-glowing-red {
+    0% {
+      box-shadow: 0 0 5px var(--very-desaturated-brown), 0 0 5px var(--very-desaturated-brown), 0 0 15px var(--very-desaturated-brown), 0 0 20px var(--red), 0 0 10px var(--red), 0 0 10px var(--red), 0 0 10px var(--red), 0 0 10px var(--red)
+    }
+  
+    to {
+      box-shadow: 0 0 2.5px var(--very-desaturated-brown), 0 0 2.5px var(--very-desaturated-brown), 0 0 7.5px var(--very-desaturated-brown), 0 0 10px var(--red), 0 0 5px var(--red), 0 0 5px var(--red), 0 0 5px var(--red), 0 0 2px var(--red)
+    }
+  }
+  
+  @keyframes text-glowing-blue {
+    0% {
+      text-shadow: 0 0 1px var(--white), 0 0 1px var(--white), 0 0 1px var(--white), 0 0 1px var(--desaturated-blue), 0 0 5px var(--desaturated-blue), 0 0 2px var(--desaturated-blue), 0 0 10px var(--desaturated-blue), 0 0 10px var(--desaturated-blue)
+    }
+  
+    to {
+      text-shadow: 0 0 .5px var(--white), 0 0 .5px var(--white), 0 0 .5px var(--white), 0 0 .5px var(--desaturated-blue), 0 0 5px var(--desaturated-blue), 0 0 .5px var(--desaturated-blue), 0 0 5px var(--desaturated-blue), 0 0 2px var(--desaturated-blue)
+    }
+  }
+  
+  @keyframes text-glowing-red {
+    0% {
+      text-shadow: 0 0 1px var(--very-desaturated-brown), 0 0 1px var(--very-desaturated-brown), 0 0 1px var(--very-desaturated-brown), 0 0 1px var(--very-desaturated-red), 0 0 5px var(--very-desaturated-red), 0 0 2px var(--very-desaturated-red), 0 0 10px var(--very-desaturated-red), 0 0 10px var(--very-desaturated-red)
+    }
+  
+    to {
+      text-shadow: 0 0 .5px var(--very-desaturated-brown), 0 0 .5px var(--very-desaturated-brown), 0 0 .5px var(--very-desaturated-brown), 0 0 .5px var(--very-desaturated-red), 0 0 5px var(--very-desaturated-red), 0 0 .5px var(--very-desaturated-red), 0 0 5px var(--very-desaturated-red), 0 0 2px var(--very-desaturated-red)
+    }
+  }
